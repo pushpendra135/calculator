@@ -4,5 +4,5 @@
   tasks:
     - name: Pulling devops image
       docker_image:
-      name: pushpendra18/calculator
+       name: pushpendra18/calculator
         source: pull
