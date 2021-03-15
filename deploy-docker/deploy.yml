@@ -1,0 +1,8 @@
+---
+- name: Pull docker image of calculator
+  hosts: localhost
+  tasks:
+    - name: Pulling devops image
+      docker_image:
+      name: pushpendra18/calculator
+        source: pull
