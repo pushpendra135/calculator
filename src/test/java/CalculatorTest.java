@@ -58,6 +58,4 @@ public class CalculatorTest {
         assertNotEquals("Dividing two double numbers for True Positive", 1, calculator.naturallog(Double.POSITIVE_INFINITY), DELTA);
         //assertNotEquals("Dividing two double numbers for True Positive", -1, calculator.divide(-1, 0), DELTA);
     }
-
-
 }
